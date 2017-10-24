@@ -3,8 +3,8 @@ import datetime
 import poloniex
 import os, sys, getopt
 
-k_key = '2RABZPOL-EFN4VC8V-3VAIR7CI-8BJWZM4R'
-k_secret = 'a28e3bc7d61f48d1292397eb78c62a1800be88cdeabfd0172cf713dd2c90452988f37fe0d4417510c422a6c792effe75cd8ccf2b7396b500b35b27523f7a12b2'
+k_key = 'your-key-from-poloniex'
+k_secret = 'your-secret-from-poloniex'
 
 help_msg = '-p --period\t\tthe period that the bot wait for'
 
@@ -97,6 +97,4 @@ class Model():
 
 if __name__ == '__main__':
     Model(sys.argv[1:])
-    #I.main(sys.argv[1:])
-    #I = Model(10,'BTC_XMR','2RABZPOL-EFN4VC8V-3VAIR7CI-8BJWZM4R','a28e3bc7d61f48d1292397eb78c62a1800be88cdeabfd0172cf713dd2c90452988f37fe0d4417510c422a6c792effe75cd8ccf2b7396b500b35b27523f7a12b2')
-    #I.toChart()
+    
