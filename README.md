@@ -1,8 +1,8 @@
 # botcoin
-A bitcoin trader bot under contruction using Poloniex API
+A bitcoin trader bot under construction using Poloniex API
 
 I am using [this](https://github.com/s4w3d0ff/python-poloniex) Poloniex API wrapper.
-Install before running botcoin.
+Install it before running botcoin.
 
 For a while this program just display the last currency pair price in the chart. 
 I am elaborating a trading strategy to start trading with this code.
